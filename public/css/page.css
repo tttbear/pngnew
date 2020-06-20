@@ -1337,3 +1337,101 @@ dl.home-tag-new-dl dd.cgd a:hover{
   top:43px;
   z-index:2;
 }
+
+/* phone */
+@media (max-width:480px){
+    /* phone_home */
+  .header-box{
+    width:100%;
+    padding:0 10px;
+  }
+  .home-search-box{
+    width:100%;
+    padding:50px 10px 20px 10px;
+  }
+  .home-top-h1{
+    font-size: 30px;
+  }
+  .content{
+    width: 100%;
+  }
+  .home-hot{
+    width: 100%;
+  }
+  .home-hot-a{
+    padding: 0;
+    text-align:center;
+    vertical-align: middle;
+  }
+  .home-hot-a a{
+    padding: 0 33px;
+    margin: 10px 6px;
+  }
+  .home-tag-new{
+    width: 100%;
+    height: 1px;
+    padding: 20px 0;
+    margin: 150px 0 50px;
+    background: #19222f;
+  }
+  dl.home-tag-new-dl{
+    width: 100%;
+    margin: 0 0 50px 0;
+  }
+  
+    /* search */
+  .header-search{
+    width: 100%;
+    margin:15px 0;
+  }
+  .fr {
+    position: absolute;
+    right:10px;
+  }
+  .list-ul li{
+    width: 180px;
+    height: 200px;
+    margin: 0 0 10px 0;
+  }
+
+   /* post */
+  .png-main{
+    width: 100%;
+    padding: 0;
+  }
+  .png-right{
+    width: 100%;
+    margin-top: 20px; 
+    padding:0;
+  }
+  .png-attr{
+    padding: 0;
+  }
+  .png-download-btn{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    line-height: 30px;
+  }
+
+  #swiper{
+    display:none;
+  }
+  .cj-posts-bg-r{
+    display:none;
+  }
+  .cj-posts-bg-l{
+    display:none;
+  }
+  .cj-posts-huaban{
+    display:none;
+  }
+  .png-img-border img{
+    width: 350px;
+    top: -20px;
+  }
+   /* down */
+  .tab-down{
+    width: 120px;
+  }
+}
