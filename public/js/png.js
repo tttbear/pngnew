@@ -24,7 +24,7 @@ function signIn() {
     shadeClose: false,
     offset: '180px',
     closeBtn: [1, true],
-    area: ['400px', '250px'],
+    area: ['330px', '250px'],
     content: ['/login', 'no']
   });
 }
@@ -36,7 +36,7 @@ function signUp() {
     shadeClose: false,
     offset: '180px',
     closeBtn: [1, true],
-    area: ['400px', '380px'],
+    area: ['330px', '380px'],
     content: ['/register', 'no']
   });
 }
