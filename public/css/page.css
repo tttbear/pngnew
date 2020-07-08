@@ -1347,7 +1347,8 @@ dl.home-tag-new-dl dd.cgd a:hover{
 
 .posts-ms-more-p{
   background-color:#618ce4;
-  text-align:center;
+  text-align: justify;
+  text-align-last: justify;
   border-radius:4px;
   color: #f5f5f5;
 }
