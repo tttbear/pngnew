@@ -1231,7 +1231,7 @@ dl.home-tag-new-dl dd.cgd a:hover{
 .home-hot {
   width:1200px;
   height:50px;
-  margin-top:50px;
+  margin-top:25px;
 }
 
 .home-hot-a {
@@ -1353,6 +1353,67 @@ dl.home-tag-new-dl dd.cgd a:hover{
   color: #f5f5f5;
 }
 
+/* addad */
+
+.homeadd {
+  width: 1200px;
+  height: 158px;
+  text-align-last: justify;
+}
+.homeadd-s {
+  display: inline-block;
+}
+.homeadd-img img{
+  width: 280px;
+  border-radius: 4px;
+}
+
+
+.tadd {
+  width: auto;
+  height: 70px;
+  margin-top: 20px;
+}
+.tadd-img img{
+  border-radius: 4px;
+}
+
+.dadd {
+  width: auto;
+  height: 70px;
+  margin-top: 20px;
+}
+.dadd-img img{
+  border-radius: 4px;
+}
+
+.padd {
+  width: auto;
+  height: 70px;
+  margin-top: 20px;
+}
+.padd-img img{
+  border-radius: 4px;
+}
+
+.dtadd {
+  width: auto;
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.dtadd-img img{
+  border-radius: 4px;
+}
+
+.ddadd {
+  width: auto;
+  height: 70px;
+  margin-top: 20px;
+}
+.ddadd-img img{
+  border-radius: 4px;
+}
 
 
 
