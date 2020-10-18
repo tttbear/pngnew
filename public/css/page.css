@@ -1427,7 +1427,9 @@ dl.home-tag-new-dl dd.cgd a:hover{
 .hk-subnav-box-list{width: 240px;float:left;}
 .hk-subnav-box-list2{width: 316px;float:left;}
 .hk-subnav-box-list a{display:block;float:left;vertical-align:top;width:76px;overflow:hidden;color:#969696;padding:10px 5px 10px 0;box-sizing:border-box;;text-decoration:none;}
+.hk-subnav-box-list a:hover{color:#eeeeee;}
 .hk-subnav-box-list2 a{display:block;float:left;vertical-align:top;width:76px;overflow:hidden;color:#969696;padding:10px 5px 10px 0;box-sizing:border-box;;text-decoration:none;}
+.hk-subnav-box-list2 a:hover{color:#eeeeee;}
 .hk-subnav-box-fg{float:left;width:1px;height:40px;background:#585858;margin: 22px 20px 0 15px;}
 .hk-subnav-box-list-last a{text-align:center;margin-right:40px;position: relative;padding-top: 14px;height: 85px;color:#ffffff;text-decoration:none;float:left;}
 .hk-subnav-box-list-last a:nth-child(3){margin-right: 0}
