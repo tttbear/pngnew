@@ -1418,20 +1418,29 @@ dl.home-tag-new-dl dd.cgd a:hover{
 
 
 
+/* hk-hf  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hk-subnav-ts{position:absolute;background:#636363;margin-left:1170px;width:30px;height:25px;text-align:center;border-radius: 0 4px;}
+.hk-subnav-ts p{font-size:12px;margin-top:4px;color: #969696;}
+.hk-subnav-box{padding-left: 20px;}
+.hk-subnav{height:85px;background:#393e46;border-radius: 4px;margin-top:15px;}
+.hk-subnav-box-list{width: 240px;float:left;}
+.hk-subnav-box-list2{width: 316px;float:left;}
+.hk-subnav-box-list a{display:block;float:left;vertical-align:top;width:76px;overflow:hidden;color:#969696;padding:10px 5px 10px 0;box-sizing:border-box;;text-decoration:none;}
+.hk-subnav-box-list2 a{display:block;float:left;vertical-align:top;width:76px;overflow:hidden;color:#969696;padding:10px 5px 10px 0;box-sizing:border-box;;text-decoration:none;}
+.hk-subnav-box-fg{float:left;width:1px;height:40px;background:#585858;margin: 22px 20px 0 15px;}
+.hk-subnav-box-list-last a{text-align:center;margin-right:40px;position: relative;padding-top: 14px;height: 85px;color:#ffffff;text-decoration:none;float:left;}
+.hk-subnav-box-list-last a:nth-child(3){margin-right: 0}
+.hk-subnav-box-list-last a i{width: 30px;height: 30px;border-radius: 50%;box-shadow:1px 2px 6px 0px rgba(0,0,0,0.2);background: url(https://cdn.jsdelivr.net/gh/tttbear/pngnew@1.1.0/public/js/layui/img/index-icon.v13.png);display: block;margin: 0 auto;}
+.hk-subnav-box-list-last a i.xly{background-position:-308px -97px }
+.hk-subnav-box-list-last a i.app{background-position:-240px -97px }
+.hk-subnav-box-list-last a i.vip{background-position:-274px -97px }
+.hk-subnav-box-list-last a i.work{background-position:-210px -66px}
+.hk-subnav-box-list-last a span{display: block;padding-top: 8px;color:#969696;}
+.hk-subnav-box-list-last .pos-txt{position: absolute;height: 24px;border:1px #fff solid;border-radius: 3px;background: #969696;padding: 0 12px;white-space: nowrap;line-height: 22px;left: -40px;top: 75px;display: none;}
+.hk-subnav-box-list-last .pos-txt:before{position: absolute;left: 50%;width: 8px;height: 6px;top: -6px;margin-left: -4px;background: url(https://cdn.jsdelivr.net/gh/tttbear/pngnew@1.1.0/public/js/layui/img/index-icon.v13.png) -189px -70px;content: ''}
+.hk-subnav-box-list-last a:hover span{color:#E3AD13}
+.hk-subnav-box-list-last a:hover .pos-txt{display: block;}
 
 
 
@@ -1446,6 +1455,9 @@ dl.home-tag-new-dl dd.cgd a:hover{
 /* phone */
 @media (max-width:480px){
     /* phone_home */
+  .hk-subnav{
+    display:none;
+  }
   .homeadd{
     display:none;
   }
