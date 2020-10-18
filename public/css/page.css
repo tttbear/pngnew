@@ -1445,6 +1445,9 @@ dl.home-tag-new-dl dd.cgd a:hover{
 /* phone */
 @media (max-width:480px){
     /* phone_home */
+  .homeadd{
+    display:none;
+  }
   .header-box{
     width:100%;
     padding:0 10px;
