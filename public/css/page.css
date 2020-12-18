@@ -570,15 +570,13 @@ input::-webkit-input-placeholder {
 
 .list-msg {
   color: #eeeeee;
-  height: 20px;
-  line-height: 20px;
+  height: 0px;
+  line-height: 0px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   text-align:center;
-  margin-top: 10px
-  
-
+  /* margin-top: 10px */
 }
 
 .list-img-bg {
@@ -737,7 +735,10 @@ input::-webkit-input-placeholder {
 }
 
 .png-img-title {
-  padding: 0 0 10px;
+  /* padding: 0 0 10px; */
+  width: 0;
+  height: 0;
+  visibility: hidden;
 }
 
 .png-img-format {
@@ -1274,7 +1275,7 @@ dl.home-tag-new-dl dd.cgd a:hover{
 .loding-p {
   text-align:center;
   background-image: radial-gradient(#618ce4, #c8daff,#618ce4);
-  font-size: 15px;
+  font-size: 14px;
   -webkit-background-clip: text;
   color: transparent;
   animation: ani 3s infinite ease-in-out;
