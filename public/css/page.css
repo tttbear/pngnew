@@ -723,7 +723,7 @@ input::-webkit-input-placeholder {
   }
 
 .png-main img{
-  width:460px;
+  width:478px;
 }
 
 .png-left {
@@ -1277,7 +1277,7 @@ dl.home-tag-new-dl dd.cgd a:hover{
 
 /*wz-img-loding*/
 .loding-p {
-  text-align:center;
+  /* text-align:center; */
   background-image: radial-gradient(#618ce4, #c8daff,#618ce4);
   font-size: 14px;
   -webkit-background-clip: text;
@@ -1306,7 +1306,7 @@ dl.home-tag-new-dl dd.cgd a:hover{
 
 .cj-posts-huaban{
   position:absolute;
-  left: 515px;
+  left: 507px;
   top: 15px;
   padding:5px 5px 5px 0px;
   color:#ffffff;
@@ -1326,7 +1326,7 @@ dl.home-tag-new-dl dd.cgd a:hover{
   border-top:14px solid #e46161;
   border-right:14px solid #e46161;
   border-bottom:15px solid #e46161;
-  left: 494px;
+  left: 488px;
   top: 15px;
   z-index:2;
 }
@@ -1337,7 +1337,7 @@ dl.home-tag-new-dl dd.cgd a:hover{
   height: 0;
   border: 14px solid transparent;
   border-left:14px solid #b34f4f;
-  left: 576px;
+  left: 569px;
   top: 28px;
   z-index:2;
 }
